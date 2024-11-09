@@ -1,0 +1,176 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #000000; /* Fondo general negro */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5d3a9b; /* Morado oscuro */
+    color: #ffffff;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 1.8em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #dcd6f2; /* Morado claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #bbaedc; /* Morado intermedio */
+}
+
+section {
+    padding: 2em;
+    margin: 2em auto;
+    background-color: #fff9e6; /* Fondo crema para secciones */
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para "Sobre Mí" */
+#sobre-mi img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    border: 3px solid #5d3a9b; /* Morado oscuro */
+}
+
+#sobre-mi p {
+    margin-top: 1em;
+}
+
+/* Estilos para la sección de Educación */
+#educacion ul {
+    list-style-type: disc;
+    margin-left: 1.5em;
+}
+
+#educacion ul ul {
+    list-style-type: circle;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+}
+
+/* Estilos para la sección de habilidades */
+#habilidades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#habilidades ul li {
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    background-color: #f8f9fc; /* Fondo gris muy claro para cada habilidad */
+    border-radius: 5px;
+}
+
+/* Estilos para la sección de proyectos */
+#proyectos article {
+    background-color: #fff9e6; /* Fondo crema para cada tarjeta de proyecto */
+    padding: 1.5em;
+    border-radius: 8px;
+    margin-top: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#proyectos h3 {
+    color: #5d3a9b; /* Morado oscuro */
+}
+
+#proyectos p {
+    margin-top: 0.5em;
+}
+
+#proyectos img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1em;
+    border-radius: 8px;
+}
+
+/* Estilos para Contacto */
+#contacto p, #contacto ul {
+    margin-top: 1em;
+}
+
+#contacto a {
+    color: #ffffff; /* Letras blancas */
+    background-color: #5d3a9b; /* Fondo morado */
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#contacto a:hover {
+    background-color: #4a2f7d; /* Morado más oscuro */
+}
+
+/* Estilos para enlaces y botones */
+a, button {
+    color: #ffffff;
+    background-color: #5d3a9b; /* Morado oscuro */
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a:hover, button:hover {
+    background-color: #4a2f7d; /* Morado más oscuro */
+}
+
+/* Diseño de tarjetas */
+#habilidades ul li, #proyectos article {
+    border: 1px solid #d1d9e0; /* Borde gris claro */
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    #sobre-mi img {
+        width: 100px;
+        height: 100px;
+    }
+
+    section {
+        padding: 1.5em;
+    }
+}
+
